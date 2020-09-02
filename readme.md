@@ -64,7 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-(images/screenshot-zara.svg)
+(images/screenshot-zara.png)
 
 **Breakdown-schets(en):**
 
