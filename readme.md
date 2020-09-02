@@ -56,11 +56,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -rood-
+**Je startniveau:** rood
 
-**Je focus:** -surface plane-
+**Je focus:** surface plane
 
-**Je opdracht:** -https://www.zara.com/nl/en/-
+**Je opdracht:** https://www.zara.com/nl/en/
 
 **Screenshot(s):**
 
