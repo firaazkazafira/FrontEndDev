@@ -37,8 +37,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
-Positioning/styling went well, still need to work on the menu navigation and still don't know how page snap works yet.
-On the last screenshot it shows the desktop version of the website, its still an early progress.
+Positioning/styling went well even thought it took me the most time to figuring out how i should work on the backgroung but other than that still need to work on the menu navigation and still don't know how page snap works yet.
+On the last screenshot it shows the desktop version of the website but its still an early progress. didn't upload it to github yet as its still in local doc.
 
 **Screenshot(s):**
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot1-site.png)
