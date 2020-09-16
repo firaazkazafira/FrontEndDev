@@ -42,11 +42,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot1-site.png)
-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot2-site.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot3-site.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot4-site.png)
 
 ### Agenda voor meeting
-
--samen met je groepje opstellen-
+vragenlijst:
+- responsive maken
+- video
+- page snap
+- algemene info (wat wordt er verwacht met de pagina's)
 
 ### Verslag van meeting
 
