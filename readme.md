@@ -41,7 +41,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -dit ging goed & dit was lastig-
 
 **Screenshot(s):**
-(images/screenshot1-site.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot1-site.png)
 
 
 ### Agenda voor meeting
