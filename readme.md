@@ -38,21 +38,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Styling and positioning took the most time but it ended up well. Still going to work on the menu navigation. The last picture shows how it looks on desktop. Didn't upload it as its still an early progress. 
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot1-site.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot2-site.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot3-site.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot4-site.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshotext-site.png)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Vragenlijst:
+- responsive maken
+- video
+- page snap
+- algemene info (wat wordt er verwacht met de pagina's)
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
-
-
+Ask student-assistent about how scroll snap works. Work on making it responsive. 
 
 ## Intake (week 1)
 
