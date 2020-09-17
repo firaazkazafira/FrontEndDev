@@ -37,22 +37,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
-Positioning/styling went well even thought it took me the most time to figuring out how i should work on the backgroung but other than that still need to work on the menu navigation and still don't know how page snap works yet.
-On the last screenshot it shows the desktop version of the website but its still an early progress. didn't upload it to github yet as its still in local doc.
+
+-dit ging goed & dit was lastig-
 
 **Screenshot(s):**
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot1-site.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot2-site.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot3-site.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot4-site.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshotext-site.png)
+
+-screenshot(s) van hoe ver je bent-
 
 ### Agenda voor meeting
-vragenlijst:
-- responsive maken
-- video
-- page snap
-- algemene info (wat wordt er verwacht met de pagina's)
+
+-samen met je groepje opstellen-
 
 ### Verslag van meeting
 
