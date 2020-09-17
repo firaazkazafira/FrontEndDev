@@ -1,5 +1,113 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+body, html{
+    height: 100%;
+    margin: 0;
+}
+header{
+    position: fixed;
+    display: grid;
+    height: 14px;
+    width: 100%;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin:0;
+    justify-content: space-between;
+    padding: 24px 16px 17px;
+}
+header nav ul a{
+    color: white;
+    text-decoration: none;
+}
+header li{
+    align-self: center;
+    margin: 10px;
+}
+header nav ul li:nth-of-type(1){
+    position: relative;
+    margin-right:auto;
+}
+h2{
+    display: flex;
+    color: #de00ff;
+    font-size: 58px;
+    justify-content: center;
+    padding: 0% auto;
+    margin: 0% auto;
+    text-align: center;
+}
+p{
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+main ul{
+    list-style: none;
+    padding: 0% auto;
+    margin: 0% auto;
+    position: relative;
+    width: 70%;
+    top: 40%;
+    left: -20px;
+}
+.center1{
+    background: url(../images/homebg1.jpg);
+    height: 750px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+}    
+.center2{
+    background: url(../images/homebg2.jpg);
+    height: 750px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+}    
+.center3{
+    background: url(../images/homebg3.jpg);
+    height: 750px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+}    
+.center4{
+    background: url(../images/homebg4.jpg);
+    height: 750px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+}    
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+}
+.bottom ul{
+    position: fixed;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    top: 90%;
+}
+.bottom ul{
+    display: flex;
+    list-style: none;
+}
+.bottom ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.bottom li{
+    margin: 10px;
+}
+.bottom li:nth-of-type(2){
+    text-decoration: underline;
+}
