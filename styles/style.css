@@ -70,16 +70,16 @@ section:nth-of-type(1n+0){
     background-repeat: repeat-x;
     height: 100vh;
 }
-.center1{
+section:first-of-type{
     background: url(../images/homebg1.jpg);
 }    
-.center2{
+section:nth-of-type(2){
     background: url(../images/homebg2.jpg);
 }    
-.center3{
+section:nth-of-type(3){
     background: url(../images/homebg3.jpg);
 }    
-.center4{
+.section:last-of-type{
     background: url(../images/homebg4.jpg);
 }    
 .bottom {
