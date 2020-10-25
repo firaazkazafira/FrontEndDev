@@ -64,33 +64,23 @@ section {
     width: 100vw;
     scroll-snap-align: start;
 }
+section:nth-of-type(1n+0){
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    height: 100vh;
+}
 .center1{
     background: url(../images/homebg1.jpg);
-    height: 750px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: repeat-x;
 }    
 .center2{
     background: url(../images/homebg2.jpg);
-    height: 750px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: repeat-x;
 }    
 .center3{
     background: url(../images/homebg3.jpg);
-    height: 750px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: repeat-x;
 }    
 .center4{
     background: url(../images/homebg4.jpg);
-    height: 750px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: repeat-x;
 }    
 .bottom {
     display: flex;
