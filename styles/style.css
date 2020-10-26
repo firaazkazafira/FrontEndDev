@@ -5,6 +5,43 @@ body, html{
     height: 100%;
     margin: 0;
 }
+html{ 
+    scroll-snap-type: y mandatory;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
+}
+section:first-of-type{
+    background: url(../images/homebg1.jpg);
+        background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 100vh;
+}    
+section:nth-of-type(2){
+    background: url(../images/homebg2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 100vh;
+}    
+section:nth-of-type(3){
+    background: url(../images/homebg3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 100vh;
+}    
+section:last-of-type{
+    background: url(../images/homebg4.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 100vh;
+}    
+/*@media (max-width:780 px){ */
 header{
     position: fixed;
     display: grid;
@@ -56,32 +93,7 @@ main ul{
     top: 40%;
     left: -20px;
 }
-html { 
-    scroll-snap-type: y mandatory;
-  }
-section {
-    height: 100vh;
-    width: 100vw;
-    scroll-snap-align: start;
-}
-section:nth-of-type(1n+0){
-    background-position: center;
-    background-size: content;
-    background-repeat: repeat-x;
-    height: 100vh;
-}
-section:first-of-type{
-    background: url(../images/homebg1.jpg);
-}    
-section:nth-of-type(2){
-    background: url(../images/homebg2.jpg);
-}    
-section:nth-of-type(3){
-    background: url(../images/homebg3.jpg);
-}    
-section:last-of-type{
-    background: url(../images/homebg4.jpg);
-}    
+
 .bottom {
     display: flex;
     justify-content: center;
@@ -108,4 +120,8 @@ section:last-of-type{
 }
 .bottom li:nth-of-type(2){
     text-decoration: underline;
+}
+}
+@media (max-width:900px){
+
 }
