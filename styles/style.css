@@ -79,7 +79,7 @@ section:nth-of-type(2){
 section:nth-of-type(3){
     background: url(../images/homebg3.jpg);
 }    
-.section:last-of-type{
+section:last-of-type{
     background: url(../images/homebg4.jpg);
 }    
 .bottom {
