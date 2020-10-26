@@ -19,7 +19,6 @@ section{
 /* TOP NAV */
 header .topmenu{
     position: fixed;
-    display: grid;
     height: 14px;
     width: 100%;
 }
@@ -61,37 +60,43 @@ header .topmenu li:nth-of-type(6){
 }
 
 /* HAMBURGER MENU */
-header #hammenu{
+nav .topmenu li:nth-of-type(1) img{
+    z-index: 25;
+}
+nav ul:nth-of-type(2){
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     height: 100vh;
     margin: 0px;
     padding: 80px 0px 0px 25px;
     list-style: none;
     background-color: white;
-    transform: translateX(-100vw);
+    transform: translateX(-100%);
 }
-header nav .hammenu a{
+
+nav ul:nth-of-type(2).show {
+    transform: translateX(0);
+}
+
+nav ul:nth-of-type(2) a{
     color: black;
     text-shadow: 1px 1px white;
     text-decoration: none;
 }
-header nav .hammenu li{
+nav ul:nth-of-type(2) li{
     margin-bottom: 30px;
     font-size: 28px;
     font-weight: bold;
     padding: 0px 30px 0px 0px;
 }
-header nav .hammenu li:hover{
+header nav ul:nth-of-type(2) li:hover{
     background-color: black;
     padding: 15px;
 }
-header nav .hammenu a:hover{
+header nav ul:nth-of-type(2) a:hover{
     color: white;
 }
-.hammenu.show{
-    transform: translateX(100vw);
-}
+
 
 /* BACKGROUND */
 section:first-of-type{
