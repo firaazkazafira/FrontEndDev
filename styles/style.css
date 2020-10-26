@@ -16,6 +16,83 @@ section{
     scroll-snap-align: start;
 }
 
+/* TOP NAV */
+header .topmenu{
+    position: fixed;
+    display: grid;
+    height: 14px;
+    width: 100%;
+}
+header nav .topmenu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 24px 16px 17px 0px;
+}
+header nav .topmenu a{
+    color: black;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+}
+header .topmenu li{
+    align-self: center;
+    margin: 10px;
+}
+header .topmenu li:nth-of-type(2){
+    font-size: 50px;
+    font-weight: bold;
+}
+header .topmenu li:nth-of-type(3){
+    display: none;
+}
+header .topmenu li:nth-of-type(4){
+    display: flex;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 19px;
+}
+header .topmenu li:nth-of-type(5){
+    display: flex;
+    margin-left:auto;
+}
+header .topmenu li:nth-of-type(6){
+    display: flex;
+}
+
+/* HAMBURGER MENU */
+header #hammenu{
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    margin: 0px;
+    padding: 80px 0px 0px 25px;
+    list-style: none;
+    background-color: white;
+    transform: translateX(-100vw);
+}
+header nav .hammenu a{
+    color: black;
+    text-shadow: 1px 1px white;
+    text-decoration: none;
+}
+header nav .hammenu li{
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0px 30px 0px 0px;
+}
+header nav .hammenu li:hover{
+    background-color: black;
+    padding: 15px;
+}
+header nav .hammenu a:hover{
+    color: white;
+}
+.hammenu.show{
+    transform: translateX(100vw);
+}
+
 /* BACKGROUND */
 section:first-of-type{
     background: url(../images/bg1.png);
@@ -45,49 +122,6 @@ section:last-of-type{
     background-repeat: no-repeat;
     height: 100vh;
 } 
-/* TOP NAV */
-header{
-    position: fixed;
-    display: grid;
-    height: 14px;
-    width: 100%;
-}
-header nav ul{
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin:0;
-    padding: 24px 16px 17px;
-}
-header nav ul a{
-    color: black;
-    text-shadow:1px 1px white;
-    text-decoration: none;
-}
-header li{
-    align-self: center;
-    margin: 10px;
-}
-header li:nth-of-type(2){
-    font-size: 50px;
-    font-weight: bold;
-}
-header li:nth-of-type(3){
-    display: none;
-}
-header li:nth-of-type(4){
-    display: flex;
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-}
-header li:nth-of-type(5){
-    display: flex;
-    margin-left:auto;
-}
-header li:nth-of-type(6){
-    display: flex;
-}
 
 /* BODY */
 h2{
@@ -134,27 +168,27 @@ main ul a{
 }
 
 @media (max-width: 700px){ 
-    header nav ul{
+    header nav .topmenu {
         justify-content: space-between;
     }
-    header nav ul li:first-of-type{
+    header nav .topmenu  li:first-of-type{
         position: relative;
         margin-right:auto;
     }
-    header li:nth-of-type(2){
+    header .topmenu li:nth-of-type(2){
         display: none;
     }
-    header li:nth-of-type(3){
+    header .topmenu li:nth-of-type(3){
         display: flex;
         margin-left: auto;
     }
-    header li:nth-of-type(4){
+    header .topmenu li:nth-of-type(4){
         display: none;
     }
-    header li:nth-of-type(5){
+    header .topmenu li:nth-of-type(5){
         display: none;
     }
-    header li:nth-of-type(6){
+    header .topmenu li:nth-of-type(6){
         display: none;
     }
     .bottom {
