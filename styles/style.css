@@ -17,16 +17,15 @@ section{
 }
 
 /* TOP NAV */
-header ul:first-of-type{
+header nav ul:first-of-type{
     position: fixed;
     height: 14px;
     width: 100%;
-}
-header nav ul:first-of-type{
     display: flex;
     list-style: none;
     margin: 0;
     padding: 24px 16px 17px 0px;
+    top: 20px
 }
 header nav ul:first-of-type a{
     color: black;
@@ -38,7 +37,7 @@ header ul:first-of-type li{
     margin: 10px;
 }
 header ul:first-of-type li:nth-of-type(2){
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
 }
 header ul:first-of-type li:nth-of-type(3){
@@ -58,7 +57,12 @@ header ul:first-of-type li:nth-of-type(5){
 header ul:first-of-type li:nth-of-type(6){
     display: flex;
 }
-
+header nav ul:first-of-type li:hover{
+    border: solid black;
+    background: white;
+    padding: 5px;
+    padding-bottom: 0;
+}
 /* HAMBURGER MENU */
 nav ul:first-of-type li:nth-of-type(1) img{
     z-index: 25;
@@ -96,9 +100,7 @@ header nav ul:nth-of-type(2) li:hover{
 header nav ul:nth-of-type(2) a:hover{
     color: white;
 }
-header nav ul:first-of-type li:hover{
-    border: solid black;
-}
+
 
 /* BACKGROUND BODY*/
 section:first-of-type{
