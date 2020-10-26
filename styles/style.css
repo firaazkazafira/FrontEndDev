@@ -5,6 +5,8 @@ body, html{
     height: 100%;
     margin: 0;
 }
+
+/* PAGE SNAP */
 html{ 
     scroll-snap-type: y mandatory;
 }
@@ -13,9 +15,11 @@ section{
     width: 100vw;
     scroll-snap-align: start;
 }
+
+/* BACKGROUND */
 section:first-of-type{
     background: url(../images/homebg1.jpg);
-        background-position: center;
+    background-position: center;
     background-size: contain;
     background-repeat: repeat-x;
     height: 100vh;
@@ -41,7 +45,46 @@ section:last-of-type{
     background-repeat: repeat-x;
     height: 100vh;
 }    
-/*@media (max-width:780 px){ */
+@media (max-width: 700px){ 
+    header nav ul{
+        justify-content: space-between;
+    }
+    header nav ul li:first-of-type{
+        position: relative;
+        margin-right:auto;
+    }
+    header li:nth-of-type(3){
+        display:none;
+    }
+    .bottom {
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+    }
+    .bottom ul{
+        position: fixed;
+        list-style: none;
+        padding: 0%;
+        margin: 0%;
+        top: 90%;
+    }
+    .bottom ul{
+        display: flex;
+        list-style: none;
+    }
+    .bottom ul a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    .bottom li{
+        margin: 10px;
+    }
+    .bottom li:nth-of-type(2){
+        text-decoration: underline;
+    }
+}
+/* MEDIA QUERIES */
 header{
     position: fixed;
     display: grid;
@@ -64,9 +107,8 @@ header li{
     align-self: center;
     margin: 10px;
 }
-header nav ul li:nth-of-type(1){
-    position: relative;
-    margin-right:auto;
+header li:nth-of-type(2){
+    display: none;
 }
 h2{
     display: flex;
@@ -82,6 +124,7 @@ p{
     font-size: 14px;
     justify-content: center;
     color: white;
+    text-shadow:1px 1px black;
     text-align: center;
 }
 main ul{
@@ -93,35 +136,6 @@ main ul{
     top: 40%;
     left: -20px;
 }
-
-.bottom {
-    display: flex;
-    justify-content: center;
-    padding: 0%;
-}
-.bottom ul{
-    position: fixed;
-    list-style: none;
-    padding: 0%;
-    margin: 0%;
-    top: 90%;
-}
-.bottom ul{
-    display: flex;
-    list-style: none;
-}
-.bottom ul a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-.bottom li{
-    margin: 10px;
-}
-.bottom li:nth-of-type(2){
-    text-decoration: underline;
-}
-}
-@media (max-width:900px){
-
+.bottom{
+    display: hidden;
 }
