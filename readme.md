@@ -24,13 +24,51 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+
+ ### Stand van zaken
+
+
+ **Screenshot(s):**
+
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/?.png)
+
+ ### Agenda voor meeting
+ I couldn't attend cause of a personal reason
+
+ ### Verslag van meeting
+
+ -same as voortgang 1-
 
 
 
-## Voortgang 2 (week 5)
+ ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+ ### Stand van zaken
+
+ Found a way to use page snap, working on hamburger menu and trying to figure out how media query works.
+
+ On the first screenshot you can see that it works perfectly as picture got repeated when screen gets bigger. but once the width of the screen is smaller than the image, it left a white/blank space in between (that it doesn't fill or adjust with the screen)
+
+ Page snap does work, but its very sensitive. Once you move or slide it too much or too fast then it can skip a section
+
+ Have been looking at how hamburger menu works but still pretty confused? I do know that it requires javascript but a way to show it only when needed is still rather hard to understand.
+
+ **Screenshot(s):**
+ -same as voortgang 1-
+
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/repeat.JPG)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/unresponsive.JPG)
+
+ ### Agenda voor meeting
+
+ Everyone is showing their website;
+ - Anoek
+ - Bas
+ - Fira
+
+ ### Verslag van meeting
+
+ Start to make the second page of the website!!!
 
 
 
