@@ -6,7 +6,7 @@ body, html{
     margin: 0;
 }
 
-/* PAGE SNAP */
+/* PAGE SNAP (CODE VAN https://css-tricks.com/practical-css-scroll-snapping/) */
 html{ 
     scroll-snap-type: y mandatory;
 }
@@ -68,7 +68,7 @@ nav ul:first-of-type li:nth-of-type(1) img{
     z-index: 25;
 }
 nav ul:nth-of-type(2){
-    position: absolute;
+    position: fixed;
     z-index: 1;
     height: 100vh;
     margin: 0px;
@@ -171,8 +171,10 @@ main ul a{
     transform: translateX(50%);
 }
 main ul a:hover{
-    background: black;
-    color: white;
+    background: white;
+    border: solid black;
+    color: black;
+    padding: 6px 40px;
 }
 
 /* BOTTOM NAV */
@@ -180,23 +182,29 @@ main ul a:hover{
     display: hidden;
 }
 
-/* SECOND PAGE */
+/* SECOND PAGE GRID*/
 article img{
-    height: 100vh;
+    height: 70vh;
+    right: 0;
 }
-article{
-    display: flex;
-    flex-direction: row;
-    width: 66.6%;
-    justify-content: center;
-    margin: 0 auto;
+main article{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1em;
+    grid-auto-flow:dense;
+    margin: 10px;
+    right: 0;
+    justify-items: center;
+    align-items: center;
 }
-article div{
-    display: block;
-    flex-direction: column;
-    flex-wrap: wrap;
+img:nth-of-type(2) {
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
-
+img:nth-of-type(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 /* MEDIA QUERIES */
 @media (max-width: 700px){ 
     header nav ul:first-of-type {
@@ -250,15 +258,6 @@ article div{
     .bottom li:nth-of-type(2){
         text-decoration: underline;
     }        
-    article{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    }
-    article div{
-        margin: 0 !important;
-    }
+
 }
 
