@@ -24,15 +24,41 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+
+**Screenshot(s):**
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/?.png)
+
+### Agenda voor meeting
+I couldn't attend cause of a personal reason
+
+### Verslag van meeting
+
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+Found a way to use page snap, working on hamburger menu and trying to figure out how media query works.
 
+**Screenshot(s):**
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/?.png)
+
+### Agenda voor meeting
+
+Everyone is showing their website;
+- Anoek
+- Bas
+- Fira
+
+### Verslag van meeting
+
+Start to make the second page of the website!!!
 
 ## Voortgang 1 (week 3)
 
