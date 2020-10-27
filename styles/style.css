@@ -282,7 +282,7 @@ main article{
 /* MEDIA QUERIES SECOND PAGE*/
 @media (max-width: 900px){ 
     main article{
-        display: flex;
+        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr,auto;
         grid-template-areas:
