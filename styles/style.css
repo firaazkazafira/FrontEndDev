@@ -183,7 +183,7 @@ main ul a:hover{
     display: hidden;
 }
 
-/* SECOND PAGE GRID*/
+/* SECOND PAGE */
 article img{
     height: 50vh;
     right: 0;
@@ -202,7 +202,7 @@ main article{
     grid-row-gap: 20px;
     grid-column-gap: 10px;
     justify-items: center;
-    grid-template-areas: 
+    grid-template-areas: /* CODE VAN https://www.youtube.com/watch?v=68O6eOGAGqA */
         "photoshoot photoshoot photoshoot photoshoot"
         "col1img col1vid col1vid col1vid"
         "col2vid col2vid none col2img"
@@ -282,6 +282,7 @@ main article{
 /* MEDIA QUERIES SECOND PAGE*/
 @media (max-width: 900px){ 
     main article{
+        display: flex;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr,auto;
         grid-template-areas:
