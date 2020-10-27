@@ -47,8 +47,8 @@ Found a way to use page snap, working on hamburger menu and trying to figure out
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/unresponsive.jpg)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/repet.jpg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/unresponsive.jpeg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/repeat.jpeg)
 
 
 ### Agenda voor meeting
