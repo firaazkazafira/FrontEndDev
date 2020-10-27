@@ -45,11 +45,16 @@ I couldn't attend cause of a personal reason
 
 Found a way to use page snap, working on hamburger menu and trying to figure out how media query works.
 
+On the first screenshot you can see that it works perfectly as picture got repeated when screen gets bigger. but once the width of the screen is smaller than the image, it left a white/blank space in between (that it doesn't fill or adjust with the screen)
+
+Page snap does work, but its very sensitive. Once you move or slide it too much or too fast then it can skip a section
+
+Have been looking at how hamburger menu works but still pretty confused? I do know that it requires javascript but a way to show it only when needed is still rather hard to understand.
+
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/unresponsive.JPG)
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/repeat.JPG)
-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/unresponsive.JPG)
 
 ### Agenda voor meeting
 
