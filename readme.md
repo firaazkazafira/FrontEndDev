@@ -14,13 +14,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+I'm happy that i got to style and make the site just the way i wanted to be as well as it being responsive. 
+Also the fact that all the problem that i met on the way are solved. Except with grid. I use an alternative for that. 
+But for the rest i'm very happy with how it turns out.
+I do want to learn more about javascript and to exercise more so then i get to know the logic better.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
-
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/1.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/2.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/3.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/4.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/5.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/6.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/7.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/8.png)
+ 
+ 
 
 ## Voortgang 3 (week 6)
 
@@ -33,9 +43,14 @@ Video tag doesn't want to show up when its being opened on mobile smartphone.
 
 There is a red notiffication on console (that element doesn't exist) but still didn't know how to fix it. It only shows on index.html as video tag only exist on collection page. 
 
+Using XD to see how i want to do the template for my second page.
+
  **Screenshot(s):**
 
- ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/?.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/v3.1.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/v3.2.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/v3.3.png)
+ ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/v3.4.png)
 
  ### Agenda voor meeting
  I couldn't attend cause of a personal reason
