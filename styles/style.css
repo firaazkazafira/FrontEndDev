@@ -316,12 +316,24 @@ main article{
         grid-template-rows: 1fr,auto;
         grid-template-areas:
             "photoshoot" 
-            "col1img"
-            "col1vid"
-            "col2vid"
-            "col2img"
-    }
+            "col1"
+            "vid1"
+            "draw1"
+            "vid3"
+            "col3"
+            "draw2"
+            "draw3"
+            "vid2"
+            "col2"
+            "col4"
+            "vid4"
+            "draw4"
+    }        
     video{
         width: 100vw;
+    }
+    article img{
+        width: 80vw;
+        height: auto;
     }
 }
