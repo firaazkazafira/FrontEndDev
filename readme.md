@@ -24,9 +24,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
-
  ### Stand van zaken
+I've made my second page, with grid but using another way than how it shows on dlo. I use template as i find it easier to understand. 
 
+Media queries still a mistery. Didn't quite get how to adjust the code to my site even when i understand how it works on the exercise.
+
+Video tag doesn't want to show up when its being opened on mobile smartphone.
+
+There is a red notiffication on console (that element doesn't exist) but still didn't know how to fix it. It only shows on index.html as video tag only exist on collection page. 
 
  **Screenshot(s):**
 
@@ -37,7 +42,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
  ### Verslag van meeting
 
- -same as voortgang 1-
+ -none-
 
 
 
