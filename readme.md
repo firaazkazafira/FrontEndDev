@@ -6,9 +6,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://css-tricks.com/practical-css-scroll-snapping/
+2. https://www.youtube.com/watch?v=68O6eOGAGqA
+3. https://stackoverflow.com/questions/22987071/javascript-queryselector-null-vs-queryselector
 
 
 
