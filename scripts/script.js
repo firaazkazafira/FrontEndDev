@@ -5,7 +5,7 @@ var videoElement = document.querySelector("video:first-of-type");
 
 /* https://stackoverflow.com/questions/22987071/javascript-queryselector-null-vs-queryselector */
 if (videoElement) {
-    videoElement.addEventListener("click", playVid);;
+    videoElement.addEventListener("mouseover", playVid);
 } else {
     console.log("nope");
 }

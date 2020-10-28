@@ -64,6 +64,11 @@ header nav ul:first-of-type li:hover{
     padding: 5px;
     padding-bottom: 0;
 }
+header nav ul:first-of-type li:active{
+    background:gray;
+    padding: 5px;
+    padding-bottom: 0;
+}
 /* HAMBURGER MENU */
 nav ul:first-of-type li:nth-of-type(1) img{
     z-index: 25;
@@ -78,7 +83,6 @@ nav ul:nth-of-type(2){
     background-color: white;
     transform: translateX(-100%);
 }
-
 nav ul:nth-of-type(2).show {
     transform: translateX(0);
 }
@@ -94,6 +98,7 @@ nav ul:nth-of-type(2) li{
     font-weight: bold;
     padding: 0px 30px 0px 0px;
 }
+
 header nav ul:nth-of-type(2) li:hover{
     background-color: black;
     padding: 15px;
@@ -101,7 +106,9 @@ header nav ul:nth-of-type(2) li:hover{
 header nav ul:nth-of-type(2) a:hover{
     color: white;
 }
-
+header nav ul:nth-of-type(2) li:active{
+    background-color: gray;
+}
 
 /* BACKGROUND BODY*/
 section:first-of-type{
@@ -173,9 +180,11 @@ main ul a{
 }
 main ul a:hover{
     background: white;
-    border: solid black;
-    color: black;
     padding: 6px 40px;
+}
+main ul a:active{
+    background: gray;
+
 }
 
 /* BOTTOM NAV */
@@ -255,16 +264,12 @@ main article{
 
 /* MEDIA QUERIES */
 @media (max-width: 700px){ 
-    header nav ul:first-of-type {
-        justify-content: space-between;
-    }
+
     header nav ul:first-of-type li:first-of-type{
         position: relative;
         margin-right:auto;
     }
-    header ul:first-of-type li:nth-of-type(2){
-        display: none;
-    }
+
     header ul:first-of-type li:nth-of-type(3){
         display: flex;
         margin-left: auto;
@@ -305,9 +310,16 @@ main article{
     }
     .bottom li:nth-of-type(2){
         text-decoration: underline;
-    }        
+    }
+    .bottom li:hover{
+        border:solid black;
+        background-color: white;
+        padding: 5px;
+    }
+    .bottom li:active{
+        background-color: gray;
+    }             
 }
-
 /* MEDIA QUERIES SECOND PAGE*/
 @media (max-width: 900px){ 
     main article{
