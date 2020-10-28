@@ -188,9 +188,6 @@ article img{
     height: 50vh;
     right: 0;
 }
-article video{
-    height: 50vh;
-}
 main article ::after, ::before{
     box-sizing: border-box;
 }
@@ -204,25 +201,57 @@ main article{
     justify-items: center;
     grid-template-areas: /* CODE VAN https://www.youtube.com/watch?v=68O6eOGAGqA */
         "photoshoot photoshoot photoshoot photoshoot"
-        "col1img col1vid col1vid col1vid"
-        "col2vid col2vid none col2img"
+        "col1 vid1 vid1 vid1"
+        "draw1 draw1 vid3 col3"
+        "draw2 draw2 draw3 draw3"
+        "vid2 vid2 vid2 col2"
+        "col4 vid4 draw4 draw4"
     }
     video:first-of-type{
         grid-area: photoshoot;
         height: 100vh;
     }
-    video:nth-of-type(2){
-        grid-area: col1vid;
-    }
-    img:nth-of-type(1){
-        grid-area: col1img;
-    }
-    video:nth-of-type(3){
-        grid-area: col2vid;
+    img:first-of-type{
+        grid-area: col1;
     }
     img:nth-of-type(2){
-        grid-area: col2img;
+        grid-area: vid1;
     }
+    img:nth-of-type(3){
+        grid-area: draw1;
+    }
+    img:nth-of-type(4){
+        grid-area: vid3;
+    }
+    img:nth-of-type(5){
+        grid-area: col3;
+    }
+    img:nth-of-type(6){
+        grid-area: draw2;
+    }
+    img:nth-of-type(7){
+        grid-area: draw3;
+    }
+    img:nth-of-type(8){
+        grid-area: vid2;
+    }
+    img:nth-of-type(9){
+        grid-area: col2;
+    }
+    img:nth-last-of-type(3){
+        grid-area: col4;
+    }
+    img:nth-last-of-type(2){
+        grid-area: vid4;
+        width:200px;
+        height: auto;
+        align-self: center;
+
+    }
+    img:last-of-type{
+        grid-area: draw4;
+    }
+
 
 /* MEDIA QUERIES */
 @media (max-width: 700px){ 
