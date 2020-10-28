@@ -65,7 +65,9 @@ Using XD to see how i want to do the template for my second page.
 
  ### Stand van zaken
 
- Found a way to use page snap, working on hamburger menu and trying to figure out how media query works.
+ Found a way to use page snap, asked student-assistent but they couldn't help.
+ 
+ Working on hamburger menu and trying to figure out how media query works.
 
  On the first screenshot you can see that it works perfectly as picture got repeated when screen gets bigger. but once the width of the screen is smaller than the image, it left a white/blank space in between (that it doesn't fill or adjust with the screen)
 
